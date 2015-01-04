@@ -1,4 +1,4 @@
-(defproject biiwide/nrepl-ssh "0.2.0-SNAPSHOT"
+(defproject biiwide/nrepl-ssh "0.1.0"
   :description "nREPL over SSH transport"
   :url "http://github.com/biiwide/nrepl-ssh"
   :license {:name "Eclipse Public License"
