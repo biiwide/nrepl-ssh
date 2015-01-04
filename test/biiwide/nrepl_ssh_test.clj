@@ -1,6 +1,6 @@
-(ns biiwide.nrepl-ssh.core-test
+(ns biiwide.nrepl-ssh-test
   (:require [clojure.test :refer :all]
-            [biiwide.nrepl-ssh.core :refer :all]))
+            [biiwide.nrepl-ssh :refer :all]))
 
 (let [default-params {:transport :nrepl
                       :username (System/getProperty "user.name")

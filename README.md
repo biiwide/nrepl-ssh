@@ -4,7 +4,7 @@ An nREPL over SSH transport
 
 ## Usage
 
-Loading the namespace 'biiwide.nrepl-ssh.core will register the URI schemes below with 'clojure.tools.nrepl/url-connect multimethod.
+Loading the namespace 'biiwide.nrepl-ssh will register the URI schemes below with 'clojure.tools.nrepl/url-connect multimethod.
   *  ssh:  nREPL bencoded transport over SSH
   *  nrepl+ssh:  same as above
   *  telnet+ssh:  nREPL tty transport over SSH

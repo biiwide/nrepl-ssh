@@ -1,4 +1,4 @@
-(ns biiwide.nrepl-ssh.core
+(ns biiwide.nrepl-ssh
   (:require [clj-ssh.cli :as ssh-cli :refer [session]]
             [clj-ssh.ssh   :as ssh]
             [clojure.string :as str]
@@ -60,7 +60,7 @@
             (cond-> 
               transport (assoc :transport (keyword transport))
               username  (assoc :username username)
-              port      (assoc :transport-port (parse-int :transport-port port))
+              port      (assoc :transport-port (parse-int-param :transport-port port))
               ))))))
 
 (defn direct-tcpip-channel
